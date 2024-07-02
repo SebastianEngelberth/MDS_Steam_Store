@@ -1,0 +1,340 @@
+TAG_ID,NAME
+1,1980s
+2,1990s
+3,2.5D
+4,2D
+5,2D Fighter
+6,360 Video
+7,3D
+8,3D Platformer
+9,3D Vision
+10,4 Player Local
+11,4X
+12,6DOF
+13,Abstract
+14,Action
+15,Action RPG
+16,Action-Adventure
+17,Adventure
+18,Agriculture
+19,Aliens
+20,Alternate History
+21,America
+22,Animation & Modeling
+23,Anime
+24,Arcade
+25,Arena Shooter
+26,Assassin
+27,Atmospheric
+28,Audio Production
+29,BMX
+30,Base-Building
+31,Baseball
+32,Basketball
+33,Batman
+34,Battle Royale
+35,Beat em up
+36,Beautiful
+37,Benchmark
+38,Bikes
+39,Blood
+40,Board Game
+41,Bowling
+42,Building
+43,Bullet Hell
+44,Bullet Time
+45,CRPG
+46,Capitalism
+47,Card Game
+48,Cartoon
+49,Cartoony
+50,Casual
+51,Cats
+52,Character Action Game
+53,Character Customization
+54,Chess
+55,Choices Matter
+56,Choose Your Own Adventure
+57,Cinematic
+58,City Builder
+59,Class-Based
+60,Classic
+61,Clicker
+62,Co-op
+63,Cold War
+64,Colorful
+65,Comedy
+66,Comic Book
+67,Competitive
+68,Controller
+69,Conversation
+70,Crafting
+71,Crime
+72,Cult Classic
+73,Cute
+74,Cyberpunk
+75,Cycling
+76,Dark
+77,Dark Fantasy
+78,Dark Humor
+79,Dating Sim
+80,Demons
+81,Design & Illustration
+82,Destruction
+83,Detective
+84,Difficult
+85,Dinosaurs
+86,Diplomacy
+87,Documentary
+88,Dog
+89,Dragons
+90,Drama
+91,Driving
+92,Dungeon Crawler
+93,Dungeons & Dragons
+94,Dystopian
+95,Early Access
+96,Economy
+97,Education
+98,Epic
+99,Experimental
+100,Exploration
+101,FMV
+102,FPS
+103,Faith
+104,Family Friendly
+105,Fantasy
+106,Fast-Paced
+107,Female Protagonist
+108,Fighting
+109,First-Person
+110,Fishing
+111,Flight
+112,Football
+113,Free to Play
+114,Funny
+115,Futuristic
+116,Gambling
+117,Game Development
+118,GameMaker
+119,Games Workshop
+120,God Game
+121,Golf
+122,Gore
+123,Gothic
+124,Grand Strategy
+125,Great Soundtrack
+126,Grid-Based Movement
+127,Gun Customization
+128,Hack and Slash
+129,Hacking
+130,Hand-drawn
+131,Heist
+132,Hex Grid
+133,Hidden Object
+134,Historical
+135,Hockey
+136,Horror
+137,Horses
+138,Hunting
+139,Illuminati
+140,Indie
+141,Intentionally Awkward Controls
+142,Interactive Fiction
+143,Inventory Management
+144,Investigation
+145,Isometric
+146,JRPG
+147,Kickstarter
+148,LEGO
+149,Lara Croft
+150,Lemmings
+151,Level Editor
+152,Linear
+153,Local Co-Op
+154,Local Multiplayer
+155,Logic
+156,Loot
+157,Lovecraftian
+158,MMORPG
+159,MOBA
+160,Magic
+161,Management
+162,Mars
+163,Martial Arts
+164,Massively Multiplayer
+165,Masterpiece
+166,Match 3
+167,Mature
+168,Mechs
+169,Medieval
+170,Memes
+171,Metroidvania
+172,Military
+173,Mini Golf
+174,Minimalist
+175,Mining
+176,Mod
+177,Moddable
+178,Motocross
+179,Motorbike
+180,Mouse only
+181,Movie
+182,Multiplayer
+183,Multiple Endings
+184,Music
+185,Music-Based Procedural Generation
+186,Mystery
+187,Mystery Dungeon
+188,Mythology
+189,NSFW
+190,Narration
+191,Naval
+192,Ninja
+193,Noir
+194,Nonlinear
+195,Nudity
+196,Offroad
+197,Old School
+198,On-Rails Shooter
+199,Online Co-Op
+200,Open World
+201,Otome
+202,Parkour
+203,Parody
+204,Party-Based RPG
+205,Perma Death
+206,Philisophical
+207,Photo Editing
+208,Physics
+209,Pinball
+210,Pirates
+211,Pixel Graphics
+212,Platformer
+213,Point & Click
+214,Political
+215,Politics
+216,Pool
+217,Post-apocalyptic
+218,Procedural Generation
+219,Programming
+220,Psychedelic
+221,Psychological
+222,Psychological Horror
+223,Puzzle
+224,Puzzle-Platformer
+225,PvP
+226,Quick-Time Events
+227,RPG
+228,RPGMaker
+229,RTS
+230,Racing
+231,Real Time Tactics
+232,Real-Time
+233,Real-Time with Pause
+234,Realistic
+235,Relaxing
+236,Remake
+237,Replay Value
+238,Resource Management
+239,Retro
+240,Rhythm
+241,Robots
+242,Rogue-like
+243,Rogue-lite
+244,Romance
+245,Rome
+246,Runner
+247,Sailing
+248,Sandbox
+249,Satire
+250,Sci-fi
+251,Science
+252,Score Attack
+253,Sexual Content
+254,Shoot Em Up
+255,Shooter
+256,Short
+257,Side Scroller
+258,Simulation
+259,Singleplayer
+260,Skateboarding
+261,Skating
+262,Sniper
+263,Snow
+264,Snowboarding
+265,Soccer
+266,Software
+267,Software Training
+268,Sokoban
+269,Souls-like
+270,Space
+271,Space Sim
+272,Spectacle fighter
+273,Spelling
+274,Split Screen
+275,Sports
+276,Star Wars
+277,Stealth
+278,Steampunk
+279,Story Rich
+280,Strategy
+281,Strategy RPG
+282,Stylized
+283,Submarine
+284,Superhero
+285,Supernatural
+286,Surreal
+287,Survival
+288,Survival Horror
+289,Swordplay
+290,Tactical
+291,Tactical RPG
+292,Tanks
+293,Team-Based
+294,Tennis
+295,Text-Based
+296,Third Person
+297,Third-Person Shooter
+298,Thriller
+299,Time Attack
+300,Time Management
+301,Time Manipulation
+302,Time Travel
+303,Top-Down
+304,Top-Down Shooter
+305,Touch-Friendly
+306,Tower Defense
+307,Trading
+308,Trading Card Game
+309,Trains
+310,Turn-Based
+311,Turn-Based Combat
+312,Turn-Based Strategy
+313,Turn-Based Tactics
+314,Twin Stick Shooter
+315,Typing
+316,Underwater
+317,Utilities
+318,VR
+319,VR Only
+320,Vampire
+321,Video Production
+322,Villain Protagonist
+323,Violent
+324,Visual Novel
+325,Voice Control
+326,Voxel
+327,Walking Simulator
+328,War
+329,Wargame
+330,Warhammer 40K
+331,Web Publishing
+332,Werewolves
+333,Western
+334,Word Game
+335,World War I
+336,World War II
+337,Wrestling
+338,Zombies
+339,e-sports

@@ -1,0 +1,49 @@
+#Docker Compose File
+#OracleDB and Neo4j
+
+version: '1.0'
+
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/enterprise:latest
+    container_name: oracle-db
+    environment:
+      - ORACLE_SID=MDS
+      - ORACLE_PDB=STEAMDB
+      - ORACLE_PWD=MDS_123
+    ports:
+        - "1521:1521"
+        - "5500:5500"
+    volumes:
+        - oracle:/opt/oracle/oradata
+    healthcheck:
+        test: [ "CMD", "sqlplus", "-L", "sys/Oracle_123@//localhost:1521/ORCLCDB as sysdba", "@healthcheck.sql" ]
+        interval: 30s
+        timeout: 10s
+        retries: 5
+
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j-db
+    environment:
+      - NEO4J_ACCEPT_LICENSE_AGREEMENT=yes
+      - NEO4J_AUTH=neo4j/MDS_12345
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j:/usr/share/neo4j/data
+      - neo4j:/data
+      - neo4jImport:/var/lib/neo4j/import
+      - neo4jImport:/import
+      - neo4j:/conf
+    healthcheck:
+      test: [ "CMD-SHELL", "wget --no-verbose --tries=1 --spider localhost:7474 || exit 1" ]
+
+volumes:
+  oracle:
+    driver: local
+  neo4j:
+    driver: local
+  neo4jImport:
+    driver: local
