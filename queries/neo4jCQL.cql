@@ -54,7 +54,7 @@ ORDER BY GamesCount DESC
 MATCH (u:User {user_id: "23059"})-[o:OWNS]->(v1:Videogame)
 WITH v1
 ORDER BY o.playtime DESC
-LIMIT 1
+LIMIT 3
 
 MATCH (v1)-[:TAGGED_WITH]->(t:Tag)<-[:TAGGED_WITH]-(v2:Videogame)
 WHERE NOT v1 = v2
